@@ -1,30 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-	
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-		<!-- jQuery library -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<!-- Popper JS -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-		<!-- Latest compiled JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-	</head>
 
-	<body>
-		<div class="container">
-			<h1>My First Bootstrap Page</h1>
-			<p>This is some text.</p> 
+<head>
+	<title>Courses</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+</head>
+
+<body style="padding-top: 65px;">
+	<nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+		<button class="navbar-toggler navbar-toggler-right" type="button"
+		data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" 
+		aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<a class="navbar-brand" href="#">Courses</a>
+	<div class="collapse navbar-collapse" id="navbarCollapse">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item active">
+				<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">By subject</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">By language</a>
+			</li>
+		</ul>
+		<form class="form-inline my-2 my-lg-0">
+			<input class="form-control mr-sm-2" type="text" placeholder="Search">
+			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+		</form>
+	</div>
+</nav>
+
+<div class="container">
+	<h1>A new learning platform</h1>
+	<p>Of course, about web developement.</p> 
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+			<div class="thumbnail">
+				<a href="./square.png" target="_blank">
+					<img src="./square.png" alt="Course 1" style="width:100%">
+					<div class="caption text-center">
+						<p>Course 1</p>
+					</div>
+				</a>
+			</div>
 		</div>
-		<div class="container">
-		<div class="row" style="border:1px solid black">
-			<div class="col">.col</div>
-			<div class="col">.col</div>
-			<div class="col">.col</div>
+		<div class="col-md-4">
+			<div class="thumbnail">
+				<a href="./square.png" target="_blank">
+					<img src="./square.png" alt="Course 2" style="width:100%">
+					<div class="caption text-center">
+						<p>Course 2</p>
+					</div>
+				</a>
+			</div>
 		</div>
+		<div class="col-md-4">
+			<div class="thumbnail">
+				<a href="./square.png" target="_blank">
+					<img src="./square.png" alt="Course 3" style="width:100%">
+					<div class="caption text-center">
+						<p>Course 3</p>
+					</div>
+				</a>
+			</div>
 		</div>
-	</body>
+	</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
 </html>
