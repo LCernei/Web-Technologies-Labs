@@ -19,11 +19,11 @@ Disadvantages:
 ## Bootstrap grid
 Bootstrap's grid system allows up to 12 columns across the page.<br />
 I used the grid to arrange the course thumbnails.<br />
-I allocated equal amount of space for them using '"col-md-4"'
+I allocated equal amount of space for them using 'col-md-4'
 
 ## NavBar
 The navbar is fixed to top and collapses when zoomed in.
-It has a 'Home' link, 2 additional links and a serch field.
+It has a 'Home' link, 2 additional links and a search field.
 
 ## Responsiveness
 Bootstrap was created specially for responsive, mobile-first websites.<br />
