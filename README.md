@@ -1,3 +1,3 @@
-# Web-Technologies-Labs
+# Web Technologies
 ### Student: Liviu Cernei
 ### Group: FAF-161
