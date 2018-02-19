@@ -1,7 +1,7 @@
 # Report
 
 ## Getting Started
-    I created a page using Bootstrap 4.
+I created a page using Bootstrap 4.
 We can include the framework in 2 ways:
 * Download Bootstrap from getbootstrap.com
 * Include Bootstrap from a CDN
