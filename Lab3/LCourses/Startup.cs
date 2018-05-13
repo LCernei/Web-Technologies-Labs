@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
+using LCourses.Models;
 
 namespace LCourses
 {
@@ -22,6 +24,9 @@ namespace LCourses
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+			services.AddDbContext<LCoursesContext>(options =>
+                  options.UseSqlite("Data Source=LCourses.db"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
