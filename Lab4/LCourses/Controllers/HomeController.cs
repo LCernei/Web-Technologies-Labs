@@ -17,14 +17,14 @@ namespace LCourses.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "LCurses project description.";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Contact LCurses team.";
 
             return View();
         }
@@ -35,3 +35,4 @@ namespace LCourses.Controllers
         }
     }
 }
+
